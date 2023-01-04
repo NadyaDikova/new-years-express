@@ -1,0 +1,8 @@
+.base__train {
+  background-image: url(../../../images/train.png);
+  width: 345px;
+  height: 200px;
+  position: absolute;
+  left: 162px;
+  top: 150px;
+}

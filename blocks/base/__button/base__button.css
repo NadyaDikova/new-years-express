@@ -1,0 +1,20 @@
+.base__button{
+  display: block;
+  width: 100%;
+  padding: 36px 0;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 23.16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: linear-gradient(93.13deg, #F65F5F -19.43%, #FF7676 58.52%, #D73737 109.59%);
+  border-radius: 5% 5% 5% 5% / 25%;
+  box-shadow:1px 12px 46px #FF7676, 0 4px 0px #491111;
+  text-decoration: none;
+}
+.base__button:hover{
+  transition: all 0.5s 0s;
+  top: 2px;
+  box-shadow:1px 12px 46px #FF7676, 0 4px 0px #491111;
+  }

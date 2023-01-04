@@ -1,0 +1,10 @@
+.header__title {
+  margin: 0;
+  text-align: center;
+  font-family: 'SignPainter';
+  font-weight: 400;
+  font-size: 128.256px;
+  line-height: 103px;
+  text-align: center;
+  color: #0092C0;
+}
