@@ -1,6 +1,52 @@
 .base {
   margin: 0 auto;
-  max-width: 347px;
   position: relative;
 }
 
+@media (max-width: 2560px) {
+  .base {
+    width: 459px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .base {
+    width: 344px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .base {
+    width: 258px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .base {
+    width: 183px;
+  }
+}
+
+@media (max-width: 768px) {
+  .base {
+    width: 137px;
+  }
+}
+
+@media (max-width: 425px) {
+  .base {
+    width: 76px;
+  }
+}
+
+@media (max-width: 375px) {
+  .base {
+    width: 67px;
+  }
+}
+
+@media (max-width: 320px) {
+  .base {
+    width: 57px;
+  }
+}

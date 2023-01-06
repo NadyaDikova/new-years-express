@@ -1,20 +1,77 @@
-.base__button{
+.base__button {
   display: block;
-  width: 100%;
-  padding: 36px 0;
   text-align: center;
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 23.16px;
-  line-height: 32px;
   color: #FFFFFF;
   background: linear-gradient(93.13deg, #F65F5F -19.43%, #FF7676 58.52%, #D73737 109.59%);
   border-radius: 5% 5% 5% 5% / 25%;
   box-shadow:1px 12px 46px #FF7676, 0 4px 0px #491111;
   text-decoration: none;
 }
-.base__button:hover{
-  transition: all 0.5s 0s;
-  top: 2px;
-  box-shadow:1px 12px 46px #FF7676, 0 4px 0px #491111;
+
+  @media (max-width: 2560px) {
+    .base__button {
+      padding: 48px 0;
+      font-size: 30px;
+      line-height: 42px;
+    }
+  }
+
+  @media (max-width: 1920px) {
+    .base__button {
+      padding: 36px 0;
+      font-size: 23px;
+      line-height: 32px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .base__button {
+      padding: 27px 0;
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .base__button {
+      font-size: 12px;
+      line-height: 17px;
+      padding: 19px 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .base__button {
+      font-size: 9px;
+      line-height: 13px;
+      padding: 14px 0;
+      box-shadow:1px 12px 46px #FF7676, 0 2px 0px #491111;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .base__button {
+      font-size: 5px;
+      line-height: 7px;
+      padding: 8px 0;
+      box-shadow:1px 12px 46px #FF7676, 0 1px 0px #491111;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .base__button {
+      font-size: 4px;
+      line-height: 6px;
+      padding: 7px 0;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .base__button {
+      font-size: 3px;
+      line-height: 5px;
+      padding: 6px 0;
+    }
   }

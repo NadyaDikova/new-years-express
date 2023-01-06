@@ -1,8 +1,18 @@
 .page {
-  width: 510px;
-  padding: 0 467px 0 943px;
-  font-family: 'Open Sans', Arial, sans-serif;
+  max-width: 2560px;
   background: url(../../images/bg.png);
   background-repeat: no-repeat;
-  text-rendering: optimizeLegibility;
+  background-size: cover;
+}
+
+@media (max-width: 1440px) {
+  .page {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
 }

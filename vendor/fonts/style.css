@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     src:  url('../fontss/OpenSans-Regular.woff2') format('woff2'),
           url('../fonts/OpenSans-Regular.woff') format('woff');
 }
@@ -23,6 +23,15 @@
 }
 
 @font-face {
+  font-family: 'SignPainter';
+  font-style: normal;
+  font-weight: 600;
+  src:  url('../fonts/SignPainter-HouseScript Semibold.woff2') format('woff2'),
+        url('../fonts/SignPainter-HouseScript Semibold.woff') format('woff');
+
+}
+
+@font-face {
   font-family: 'Buyan';
   font-style: bold;
   font-weight: 700;
@@ -30,3 +39,5 @@
         url('../fonts/BuyanBold.woff') format('woff');
 
 }
+
+

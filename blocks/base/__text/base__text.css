@@ -1,9 +1,68 @@
 .base__text {
-  margin: 0 0 57px 0;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
   text-align: center;
   color: #167B9C;
+}
+
+@media (max-width: 2560px) {
+  .base__text {
+    font-size: 24px;
+    line-height: 37px;
+    margin: 0 0 77px 0;
+  }
+}
+
+@media (max-width: 1920px) {
+  .base__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 57px 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .base__text {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0 0 47px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .base__text {
+    font-size: 9px;
+    line-height: 15px;
+    margin: 0 0 36px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .base__text {
+    font-size: 7px;
+    line-height: 11px;
+    margin: 0 0 27px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .base__text {
+    font-size: 4px;
+    line-height: 6px;
+    margin: 0 0 17px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .base__text {
+    font-size: 3px;
+    line-height: 5px;
+    margin: 0 0 15px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .base__text {
+    margin: 0 0 10px 0;
+  }
 }

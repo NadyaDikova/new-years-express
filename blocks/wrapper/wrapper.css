@@ -1,0 +1,55 @@
+.wrapper {
+  margin: 0 auto;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  padding-left: 24%;
+}
+
+@media (max-width: 2560px) {
+  .wrapper {
+    width: 650px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .wrapper {
+    width: 510px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding-left: 25%;
+    width: 369px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 263px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 198px;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 95px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    width: 81px;
+  }
+}
