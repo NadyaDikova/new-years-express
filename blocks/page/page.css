@@ -14,18 +14,23 @@
 @media (max-width: 1440px) {
   .page {
     max-width: 1440px;
+    background-attachment: fixed;
+    background-position: center;
   }
 }
 
 @media (max-width: 1024px) {
   .page {
     max-width: 1024px;
+
   }
 }
 
 @media (max-width: 768px) {
   .page {
     max-width: 768px;
+    background-attachment: scroll;
+    background-position: 0% 0%;
   }
 }
 

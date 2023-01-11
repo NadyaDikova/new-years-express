@@ -26,12 +26,13 @@
 
 @media (max-width: 1024px) {
   .wrapper {
-    width: 263px;
+    padding-left: 35%;
   }
 }
 
 @media (max-width: 768px) {
   .wrapper {
+    padding-left: 25%;
     width: 198px;
   }
 }

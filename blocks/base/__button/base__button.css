@@ -34,13 +34,13 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
     .base__button {
       font-size: 12px;
       line-height: 17px;
       padding: 19px 0;
     }
-  }
+  } */
 
   @media (max-width: 768px) {
     .base__button {

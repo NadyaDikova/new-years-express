@@ -29,13 +29,13 @@
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .base__text {
     font-size: 9px;
     line-height: 15px;
     margin: 0 0 36px 0;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .base__text {

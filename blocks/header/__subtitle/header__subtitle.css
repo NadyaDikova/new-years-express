@@ -25,15 +25,13 @@
   .header__subtitle {
     font-size: 13px;
     line-height: 18px;
-    margin: 96px 0 30px 0;
+    margin: 132px 0 30px 0;
   }
 }
 
 @media (max-width: 1024px) {
   .header__subtitle {
-    font-size: 9px;
-    line-height: 13px;
-    margin: 68px 0 21px 0;
+    margin: 140px 0 21px 0;
   }
 }
 

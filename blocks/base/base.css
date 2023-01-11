@@ -20,12 +20,12 @@
     width: 258px;
   }
 }
-
+/* 
 @media (max-width: 1024px) {
   .base {
     width: 183px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .base {

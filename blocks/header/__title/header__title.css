@@ -28,12 +28,12 @@
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .header__title {
     font-size: 68px;
     line-height: 55px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .header__title {
